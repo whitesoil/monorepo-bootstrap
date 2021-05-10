@@ -8,6 +8,7 @@
     "scripts": {
         "postinstall": "lerna bootstrap",
         "bootstrap": "lerna bootstrap",
+        "build": "lerna run build",
         "clean": "lerna clean -y && rm -rf node_modules"
     },
     "bugs": {
