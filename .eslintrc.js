@@ -4,7 +4,6 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     rules: {
         indent: ['error', 4],
-        'import/extensions': 0,
         'max-len': [
             2,
             {
@@ -14,18 +13,11 @@ module.exports = {
                 ignoreComments: true,
             },
         ],
-        'object-curly-newline': 0,
-        "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
-        "@typescript-eslint/explicit-module-boundary-types": 0,
-        'no-console': ['error', { allow: ['warn', 'error'] }],
-        '@typescript-eslint/no-explicit-any': 0,
-        '@typescript-eslint/no-var-requires': 0,
-        'operator-linebreak': ['error', 'after'],
     },
     settings: {
         'import/resolver': {
             node: {
-                extensions: ['.js', '.ts'],
+                extensions: ['.ts'],
             },
         },
     },

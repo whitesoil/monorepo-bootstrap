@@ -10,10 +10,14 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean -y && rm -rf node_modules"
   },
+  "bugs": {
+    "url": "https://github.com/whitesoil/monorepo-bootstrap/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whitesoil/monorepo-bootstrap.git"
   },
+  "homepage": "https://github.com/whitesoil/monorepo-bootstrap#readme",
   "husky": {
     "hooks": {
         "pre-commit": "lint-staged"
