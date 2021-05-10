@@ -13,6 +13,7 @@
 -   package.json 을 사용 목적에 맞게 수정합니다.
 -   `lerna bootstrap`을 사용하면 `yarn workspaces`가 packages의 하위 패키지들을 node_modules에 올려줘서 패키지간 상호 참조가 가능합니다.
 -   packages 하위의 referencer, referenced 예시를 통해 어떻게 패키지간 상호 참조가 진행되는지 볼 수 있습니다.
+-   공유될 Package는 tsconfig.json을 수정하여 .d.ts 파일을 생성하는 것이 좋습니다.
 
 ## References
 
