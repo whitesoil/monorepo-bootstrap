@@ -21,3 +21,4 @@
 -   https://musma.github.io/2019/04/02/yarn-workspaces.html
 -   https://kdydesign.github.io/2020/08/27/mono-repo-lerna-example/
 -   https://so-so.dev/pattern/mono-repo-config/
+-   https://typescript-kr.github.io/pages/declaration-files/creating-dts-files-from-js.html
