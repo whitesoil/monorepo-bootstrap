@@ -17,10 +17,10 @@
 
 ## 테스트
 
--   `yarn`
--   `yarn build`
--   `yarn bootstrap`
--   `ts-node packages/referencer/src/index.ts` 또는 `node packages/referencer/dist/index.js`
+1.  `yarn`
+2.  `yarn build`
+3.  `yarn bootstrap`
+4.  `ts-node packages/referencer/src/index.ts` 또는 `node packages/referencer/dist/index.js`
 
 ## References
 
