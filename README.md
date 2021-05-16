@@ -15,7 +15,7 @@
 -   packages 하위의 referencer, referenced 예시를 통해 어떻게 패키지간 상호 참조가 진행되는지 볼 수 있습니다.
 -   공유될 Package는 tsconfig.json을 수정하여 .d.ts 파일을 생성하는 것이 좋습니다.
 
-## 잔디테스트
+## 테스트
 
 1.  `yarn`
 2.  `yarn build`
